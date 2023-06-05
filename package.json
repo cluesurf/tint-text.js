@@ -3,10 +3,13 @@
   "type": "module",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "./host/index.js",
+  "main": "./host/node.js",
+  "browser": "./host/browser.js",
   "files": [
-    "./host/index.js",
-    "./host/index.d.ts"
+    "./host/node.js",
+    "./host/node.d.ts",
+    "./host/browser.js",
+    "./host/browser.d.ts"
   ],
   "scripts": {
     "make": "tsc && tsc-alias",
@@ -44,5 +47,8 @@
     "tsc-alias": "^1.8.2",
     "tsx": "^3.12.7",
     "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
   }
 }

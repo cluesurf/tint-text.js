@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@tunebond/tint</h3>
+<h3 align='center'>@tunebond/tint-text</h3>
 <p align='center'>
   Isomorphic Color Logging in TypeScript
 </p>
@@ -18,10 +18,25 @@
 ## Installation
 
 ```
-pnpm add @tunebond/tint
-yarn add @tunebond/tint
-npm i @tunebond/tint
+pnpm add @tunebond/tint-text
+yarn add @tunebond/tint-text
+npm i @tunebond/tint-text
 ```
+
+## Usage
+
+```ts
+import tint from '@tunebond/tint-text'
+
+const P = { tone: '#cc9aff' }
+const G = { tone: '#8dd484' }
+
+console.log(`${tint('hello', P)} ${tint('world', P)}`)
+```
+
+<p align='center'>
+  <img src='https://github.com/tunebond/tint-text.js/blob/make/tint.png?raw=true' width='400'/>
+</p>
 
 ## License
 
