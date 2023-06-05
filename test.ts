@@ -12,7 +12,9 @@ console.log('')
 console.log('')
 console.log('')
 console.log('')
-console.log(`  ${tint('hello', P)} ${tint('world', G)}`)
+console.log(
+  `                       ${tint('hello', P)} ${tint('world', G)}`,
+)
 console.log('')
 console.log('')
 console.log('')

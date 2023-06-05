@@ -35,7 +35,7 @@ console.log(`${tint('hello', P)} ${tint('world', P)}`)
 ```
 
 <p align='center'>
-  <img src='https://github.com/tunebond/tint-text.js/blob/make/tint.png?raw=true' width='400'/>
+  <img src='https://github.com/tunebond/tint-text.js/blob/make/view/tint.png?raw=true' width='380'/>
 </p>
 
 ## License
