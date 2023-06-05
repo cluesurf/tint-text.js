@@ -9,7 +9,9 @@
     "./host/node.js",
     "./host/node.d.ts",
     "./host/browser.js",
-    "./host/browser.d.ts"
+    "./host/browser.d.ts",
+    "./host/type.js",
+    "./host/type.d.ts"
   ],
   "scripts": {
     "make": "tsc && tsc-alias",
