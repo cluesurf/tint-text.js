@@ -1,17 +1,15 @@
 {
-  "name": "@tunebond/tint",
+  "name": "@tunebond/tint-text",
   "type": "module",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "./host/node.js",
-  "browser": "./host/browser.js",
+  "main": "./make/node.js",
+  "browser": "./make/browser.js",
   "files": [
-    "./host/node.js",
-    "./host/node.d.ts",
-    "./host/browser.js",
-    "./host/browser.d.ts",
-    "./host/type.js",
-    "./host/type.d.ts"
+    "./make/node.js",
+    "./make/node.d.ts",
+    "./make/browser.js",
+    "./make/browser.d.ts"
   ],
   "scripts": {
     "make": "tsc && tsc-alias",

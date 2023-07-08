@@ -1,7 +1,7 @@
 import tint from './node.js'
 
-const P = { tone: '#cc9aff' }
-const G = { tone: '#8dd484' }
+const P = { tone: 'magenta' }
+const G = { tone: 'green' }
 
 console.log('')
 console.log('')
