@@ -1,16 +1,10 @@
 {
   "name": "@tunebond/tint-text",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "./make/node.js",
   "browser": "./make/browser.js",
-  "files": [
-    "./make/node.js",
-    "./make/node.d.ts",
-    "./make/browser.js",
-    "./make/browser.d.ts"
-  ],
   "scripts": {
     "make": "tsc && tsc-alias",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
