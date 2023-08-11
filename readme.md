@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@tunebond/tint-text</h3>
+<h3 align='center'>@nerdbond/tint-text</h3>
 <p align='center'>
   Isomorphic Color Logging in TypeScript
 </p>
@@ -18,15 +18,15 @@
 ## Installation
 
 ```
-pnpm add @tunebond/tint-text
-yarn add @tunebond/tint-text
-npm i @tunebond/tint-text
+pnpm add @nerdbond/tint-text
+yarn add @nerdbond/tint-text
+npm i @nerdbond/tint-text
 ```
 
 ## Usage
 
 ```ts
-import tint from '@tunebond/tint-text'
+import tint from '@nerdbond/tint-text'
 
 const P = { tone: 'magenta' }
 const G = { tone: 'green' }
@@ -35,18 +35,18 @@ console.log(`${tint('hello', P)} ${tint('world', P)}`)
 ```
 
 <p align='center'>
-  <img src='https://github.com/tunebond/tint-text.js/blob/make/view/tint.png?raw=true' width='380'/>
+  <img src='https://github.com/nerdbond/tint-text.js/blob/make/view/tint.png?raw=true' width='380'/>
 </p>
 
 ## License
 
 MIT
 
-## TuneBond
+## NerdBond
 
-This is being developed by the folks at [TuneBond](https://tune.bond), a
+This is being developed by the folks at [NerdBond](https://nerd.bond), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/tunebond),
-[LinkedIn](https://www.linkedin.com/company/tunebond), and
-[Facebook](https://www.facebook.com/tunebond). Check out our other
-[GitHub projects](https://github.com/tunebond) as well!
+computation. Find us on [Twitter](https://twitter.com/nerdbond),
+[LinkedIn](https://www.linkedin.com/company/nerdbond), and
+[Facebook](https://www.facebook.com/nerdbond). Check out our other
+[GitHub projects](https://github.com/nerdbond) as well!
