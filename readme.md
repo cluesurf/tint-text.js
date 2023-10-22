@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@nerdbond/tint-text</h3>
+<h3 align='center'>@wavebond/tint-text</h3>
 <p align='center'>
   Isomorphic Color Logging in TypeScript
 </p>
@@ -18,15 +18,15 @@
 ## Installation
 
 ```
-pnpm add @nerdbond/tint-text
-yarn add @nerdbond/tint-text
-npm i @nerdbond/tint-text
+pnpm add @wavebond/tint-text
+yarn add @wavebond/tint-text
+npm i @wavebond/tint-text
 ```
 
 ## Usage
 
 ```ts
-import tint from '@nerdbond/tint-text'
+import tint from '@wavebond/tint-text'
 
 const P = { tone: 'magenta' }
 const G = { tone: 'green' }
@@ -35,18 +35,18 @@ console.log(`${tint('hello', P)} ${tint('world', P)}`)
 ```
 
 <p align='center'>
-  <img src='https://github.com/nerdbond/tint-text.js/blob/make/view/tint.png?raw=true' width='380'/>
+  <img src='https://github.com/wavebond/tint-text.js/blob/make/view/tint.png?raw=true' width='380'/>
 </p>
 
 ## License
 
 MIT
 
-## NerdBond
+## WaveBond
 
-This is being developed by the folks at [NerdBond](https://nerd.bond), a
+This is being developed by the folks at [WaveBond](https://wave.bond), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/nerdbond),
-[LinkedIn](https://www.linkedin.com/company/nerdbond), and
-[Facebook](https://www.facebook.com/nerdbond). Check out our other
-[GitHub projects](https://github.com/nerdbond) as well!
+computation. Find us on [Twitter](https://twitter.com/wavebond),
+[LinkedIn](https://www.linkedin.com/company/wavebond), and
+[Facebook](https://www.facebook.com/wavebond). Check out our other
+[GitHub projects](https://github.com/wavebond) as well!
