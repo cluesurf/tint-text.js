@@ -1,7 +1,7 @@
 {
   "name": "@cluesurf/tint-text",
   "type": "module",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./make/node.js",
   "browser": "./make/browser.js",
